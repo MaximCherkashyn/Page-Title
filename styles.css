@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    border: 10px inset red;
+    align-items: center;
+    background-color: #C62121;
+}
+
+.center {
+    margin: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stats {
+    margin: 60px;
+}
+
+img {
+    height: 325px;
+}
+
+html {
+    background-color: lightgray;
+    font-family: 'Spectral SC', serif;
+}
+
+
+.item {
+    border: 10px solid;
+}
+
+.red {
+    border-color: red;
+}
+
+.item:hover{
+    border-color:blue;
+    border-width:5px;
+}
